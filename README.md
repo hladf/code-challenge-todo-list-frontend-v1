@@ -5,7 +5,9 @@
 Nesse code challenge simples, você só precisa desenvolver uma 'To Do list' com opções de adicionar e deletar um to do na lista (só isso mesmo, mas com código caprichado!).
 Todos os pacotes necessários para fazer isso já estão adicionados, mas se achar que tem necessidade, pode adicionar algo a mais (e explicar o motivo depois).
 
-O foco do code challenge é conhecer melhor e treinar sua **criatividade, organização, capricho, padrões seguidos, legibilidade do código e bom uso das ferramentas disponíveis** (sem gambiarras! 🤣), por isso, programe como se fosse um projeto profissional sendo feito para um cliente importante, mas sem pressa. O layout e design vai ser um diferencial, mas deixe pra caprichar nisso por último!
+O foco do code challenge é conhecer melhor e treinar sua **criatividade, organização, capricho, padrões seguidos, legibilidade do código e bom uso das ferramentas disponíveis** (sem gambiarras! 🤣), por isso, programe como se fosse um projeto profissional sendo feito para um cliente importante, tenha em mente que isso pode ir pro seu portfólio. O layout e design vai ser um diferencial, mas deixe pra caprichar nisso por último!
+
+O tempo ideal de fazer o projeto é entre 1 e 2 semanas, mas sem pressa! Esse tempo ideal é pensando no aprendizado, não na necessidade de entrega.
 
 ## Como começar?
 
@@ -67,6 +69,7 @@ Já vem com as rotas `/example` e `/todos`.
 - Código em outra lingua que não seja ingles são fora do padrão de mercado e da comunidade (variaveis, funções, etc... só textos que não precisam estar em inglês)
 - Commits pequenos, descritivos e organizados mostram um pouco de como é sua linha de raciocínio e organização
 - Caso precise de idéias de design do projeto, pode usar um desses pra se BASEAR (não precisa ser nada complexo): [Pinterest: Todo list web app design](https://br.pinterest.com/search/pins/?q=todo%20list%20web%20app%20design&rs=typed)
+- Qualquer dúvida ou ajuda, pode me chamar!
 
 ## 👨‍💻 Scripts prontos
 
