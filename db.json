@@ -1,0 +1,15 @@
+{
+  "example": [{ "message": "Catapimbas!" }],
+  "todos": [
+    {
+      "id": 1,
+      "title": "Regar plantas",
+      "description": "Regar todas menos o cacto"
+    },
+    {
+      "id": 2,
+      "title": "Passar no code challenge",
+      "description": "Caprichar no código e passar no code challenge mais facil do planeta"
+    }
+  ]
+}
