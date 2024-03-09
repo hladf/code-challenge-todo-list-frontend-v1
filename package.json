@@ -8,23 +8,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "api:server": "json-server -p 4000 --watch db.json",
-    "lint:fix": "eslint --ext .ts,.tsx src/ --fix",
-    "prepare": "husky"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "lint": "eslint --ext .ts,.tsx src/ --fix",
+    "prepare": "husky",
+    "postinstall": "husky",
+    "prepack": "pinst --disable",
+    "pre-commit": "lint-staged",
+    "postpack": "pinst --enable"
   },
   "dependencies": {
     "axios": "0.20.0",
@@ -55,10 +44,29 @@
     "eslint-plugin-standard": "4.0.1",
     "husky": "^9.0.11",
     "json-server": "0.17.4",
+    "lint-staged": "^15.2.2",
     "pinst": "^3.0.0",
     "prettier": "2.1.2",
     "styled-components": "5.2.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.3.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": "yarn lint"
   }
 }
