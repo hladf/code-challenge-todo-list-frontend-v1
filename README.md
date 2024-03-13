@@ -9,9 +9,11 @@ O foco do code challenge é conhecer melhor e treinar sua **criatividade, organi
 
 ## Como começar?
 
-Para começar, basta *fazer um `FORK`* desse repositório para a sua conta, programar nesse fork tudo que precisa, depois de finalizado os "requisitos" abaixo, **ABRA UM PULL REQUEST DO SEU FORK PARA ESSE REPOSITÓRIO AQUI**.
+Para começar, basta *fazer um `FORK`* desse repositório para a sua conta, criar um branch chamado "v1", programar nessa branch "v1" tudo que precisa, depois de finalizado os "requisitos" abaixo, **ABRA UM PULL REQUEST DO SEU BRANCH v1 PARA O BRANCH main E ME ENVIE O LINK DO PR PARA REVISAR O CÓDIGO**.
 
 Assim vou poder comentar no código do PR sobre melhorias, refatorações, otimizações, dicas e etc. E em seguida, se quiser, poderemos marcar uma call pra conversar sobre o resultado afim de melhorar o aprendizado.
+
+> futuramente terão outras versões desse desafio, podendo ser continuados no mesmo repositório como um branch v2 e por aí vai...
 
 ## ❗ Requisitos ou diferenciais
 
